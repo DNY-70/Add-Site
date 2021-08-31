@@ -142,7 +142,45 @@
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          Form here
+                        <div class="container">
+                          <div class="row">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                          </div>
+                          <div class="mb-3 pt-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="support@vantageadd.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="805-588-3557">
+                          </div>
+                          <p>
+                            <a class="btn btn-secondary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                            </p>
+                          <div class="row">
+                            <div class="col">
+                              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
