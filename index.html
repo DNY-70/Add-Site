@@ -157,26 +157,26 @@
                         </div>
                         <div class="modal-body">
                         <div class="container">
-                          <form action="https://formsubmit.co/landing@vantageadd.com" method="POST" />
+                          <form action="https://formsubmit.co/landing@vantageadd.com" method="POST">
                           <div class="row">
                               <!--ModalForm Name-->
                             <label for="NameFormControlInput1" class="form-label">Name</label>
                             <div class="col">
-                              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                              <input type="text" name="First Name" class="form-control" placeholder="First name" aria-label="First name" required>
                             </div>
                             <div class="col">
-                              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                              <input type="text" name="Last Name" class="form-control" placeholder="Last name" aria-label="Last name" required>
                             </div>
                           </div>
                           <div class="mb-3 pt-3">
                             <!--ModalForm Email-->
                             <label for="EmailFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="EmailFormControlInput1" placeholder="support@vantageadd.com">
+                            <input type="email" name="Email" class="form-control" required id="EmailFormControlInput1" placeholder="support@vantageadd.com">
                           </div>
                           <div class="mb-3">
                             <!--ModalForm Phone Number-->
                             <label for="PhoneFormControlInput1" class="form-label">Phone Number</label>
-                            <input type="text" class="form-control" id="PhoneFormControlInput1" placeholder="805-588-3557">
+                            <input type="text" name="Phone Number" class="form-control" id="PhoneFormControlInput1" placeholder="805-588-3557">
                           </div>
                           <div class="container">
                             <select class="form-select" aria-label="Default select Project">
@@ -197,16 +197,15 @@
                             </select>
                           </div>
                           <div class="mb-3 pt-3">
-                            <!--Modal Footer Buttons-->
                             <label for="NoteFormControlTextarea1" class="form-label">Custom note</label>
                             <textarea class="form-control" id="NoteFormControlTextarea1" rows="3"></textarea>
                           </div>
+                          <div class="container pt-2">
+                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-dark text-light">Submit</button>
+                          </div>
                         </form>
                         </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-dark text-light">Submit</button>
                         </div>
                       </div>
                     </div>
