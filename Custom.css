@@ -13,3 +13,30 @@
     top: 38%;
     width: 100%;
 }
+
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .caption h1 {
+        font-size: 3rem;
+        letter-spacing: .2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .caption h3 {
+        font-size: 2rem;
+        padding-bottom: 1.6rem;
+    }
+}
