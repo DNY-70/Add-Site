@@ -2,41 +2,56 @@
     max-height: 600px;
 }
 
-.video-background {
+header {
     position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
     width: 100%;
-    min-height: 100vh;
-}
-
-.caption {
+    overflow: hidden;
+  }
+  
+  header video {
     position: absolute;
-    top: 38%;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-}
-
-.caption h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: .2rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
-}
-
-.caption h3 {
-    font-size: 2rem;
-    text-shadow: .1rem .1rem .5rem black;
-    padding-bottom: 1.6rem;
-}
-
-@media (max-width: 768px) {
-    .caption h1 {
-        font-size: 1.4rem;
-        letter-spacing: .15rem;
-        padding-bottom: .5rem;
+    background-color: black;
+    opacity: 0.25;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url(/video/\(VR2\ Edit\ 1\)\(staged\)\(Fulledit\).mp4) black no-repeat center center scroll;
     }
-    
-    .caption h3 {
-        font-size: 1.1rem;
-        padding-bottom: 1.2rem;
+  
+    header video {
+      display: none;
     }
-}
+  }
