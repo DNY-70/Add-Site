@@ -88,7 +88,7 @@
                     </div> 
                   </div>
                  </nav>
-
+                  <!-- Video Background (not working)
                  <div class="video-background">
                   <div class="video-wrap">
                     <div id="video">
@@ -99,24 +99,69 @@
                   </div>
                   <!--replaces video with image for mobile devices only
                       <img src="img/Comp 1/clover_mobileheaderimg_00000.jpg" class="img-fluid d-block d-md-none" alt="bgimg">
-                      -->
+                      
                 </div>
+              -->
 
              <header>
-                <div class="caption text-center text-light">
-                  <div class="conatiner m-5">
-                    <h1 class="m-1"><span class="text-muted">360°</span> Digital Media Services</h1>
-                    <h3 class="mb-4">Dedicated at helping professionals expand their business in the virtual space</h3>
-                   <button type="button" class="btn btn-lg btn-md-sm btn-dark opacity-75 mb-md-5 mt-5" data-bs-toggle="modal" data-bs-target="#inquiryModal">
-                    Work With Us
-                    </button>
-                  </div>
-                </div>
-              </header>
-              <!-- === Showcase === -->
 
-    
+               <section class="pt-5 pt-md-4 pt-lg-3 pt-xl-2 pt-xxl-0">
+                <!--Carousel with Button -->
+                  
+
+                <div id="showcasecarouselcaptions" class="pt-4 pt-md-3 pt-lg-2 pt-xl-1 pt-xxl-0 carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/LivingRoomStaged.jpg" class="d-block w-100" alt="img/Snapshot_202005135_180500 (1).jpg">
+                      <div class="carousel-caption d-md-block">
+                        <!--Carousel First Slide-->
+                        <h5>Virtual Staging</h5>
+                        <p class="d-none d-sm-block">Let us fill in the empty space with realistic renders to make your property come to life!</p>
+                        <button type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+                          Work With Us
+                        </button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/1341 Staged Showcase.jpg" class="d-block w-100" alt="img/Snapshot_202005135_180500 (1).jpg">
+                      <div class="carousel-caption d-sm-block">
+                        <!--Carousel Second Slide-->
+                        <h5>Virtual Tours</h5>
+                        <p class="d-none d-md-block">A virtual tour can demonstrate the value of your property in an immersive and 
+                          interactive way increasing action from your prospects!</p>
+                        <button type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+                          Work With Us
+                        </button>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Snapshot_202005135_180500 (1).jpg" class="d-block w-100" alt="img/Snapshot_202005135_180500 (1).jpg">
+                      <div class="carousel-caption d-sm-block">
+                        <!--Carousel Third Slide-->
+                        <h5>360 Drone Services</h5>
+                        <p class="d-none d-md-block">Create a fully interactive 360 Video Tour or integrate 360 video footage into your virtual tour</p>
+                        <button type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+                          Work With Us
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon opacity-25" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon opacity-25" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
                   <!--Modal-->
+                    
                   <div class="modal fade" id="inquiryModal" tabindex="-1" aria-labelledby="inquiryModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -189,8 +234,7 @@
                   <!-- d-none d-md-block to remove media on md-->   
           </div>
       </div>
-
-
+  </section>
               <!-- Large Section for Info-->
   
               <section class="p-5 bg-secondary">
