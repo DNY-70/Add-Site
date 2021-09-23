@@ -25,56 +25,65 @@
   </head>
   <body>
                 <!--Navbar previous-->
-
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-                    <div class="container-fluid">  
-                     <a class="navbar-brand" href="/">
-                         <img src="img/Logo (white).png" alt="addvantage" width="80" height="60" class="d-inline-block align-text-center">
-                         Add-vantage
-                       </a>
-         
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
-                     >
-                 <span class="navbar-toggler-icon"></span>
-                 </button>
-         
-                 
-                     <div class="collapse navbar-collapse" id="navmenu">
-                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                             <li class="navbar-item">
-                                 <a href="Demo" class="nav-link">Demo</a>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+                  <div class="container-fluid">  
+                   <a class="navbar-brand" href="/">
+                       <img src="img/Logo (white).png" alt="addvantage" width="80" height="60" class="d-inline-block align-text-center">
+                       <span class="text-muted"> Add-vantage</span>
+                     </a>
+       
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+                   >
+               <span class="navbar-toggler-icon"></span>
+               </button>
+       
+               
+                   <div class="collapse navbar-collapse" id="navmenu">
+                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                           <li class="navbar-item">
+                             <!--Navbar Demo Title-->
+                               <a href="Demo" class="nav-link">Demo</a>
+                           </li>
+                           <!--Navbar Virtual Services Dropdown Title-->
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Virtual Services
+                               </a>
+                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <!--Navbar Dropdown 1-->
+                                 <li><a class="dropdown-item" href="VirtualServices#virtualstaging">Virtual Staging</a></li>
+                                 <!--Navbar Dropdown 2-->
+                                 <li><a class="dropdown-item" href="VirtualServices#virtualshowcase">Virtual Showcase</a></li>
+                                 <li><hr class="dropdown-divider"></li>
+                                 <!--Navbar Dropdown 3-->
+                                 <li><a class="dropdown-item" href="VirtualServices#gsv">Google Street View</a></li>
+                               </ul>
                              </li>
                              <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Virtual Services
-                                 </a>
-                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <li><a class="dropdown-item" href="#virtualtours">Virtual Tours</a></li>
-                                   <li><a class="dropdown-item" href="#virtualstaging">Virtual Staging</a></li>
-                                   <li><hr class="dropdown-divider"></li>
-                                   <li><a class="dropdown-item" href="#gsv">Google Street View</a></li>
-                                 </ul>
-                               </li>
-                               <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="360Drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Drone Services
-                                 </a>
-                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <li><a class="dropdown-item" href="360Drone">360 Invisible Drone</a></li>
-                                   <li><a class="dropdown-item" href="360Drone">360 Virtual Video Tour</a></li>
-                                   <li><hr class="dropdown-divider"></li>
-                                   <li><a class="dropdown-item" href="360Drone">360 Aerial Footage</a></li>
-                                 </ul>
-                               </li>
-                         </li>
-                         <li class="navbar-item">
-                             <a href="About" class="nav-link">About</a>
-                         </li>
-                         </ul>
-                     </div>
-                    </div> 
-         
-                 </nav>
+                               <!--Navbar Dropdown Drone Services Title-->
+                               <a class="nav-link dropdown-toggle" href="360Drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Drone Services
+                               </a>
+                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <!--Navbar Drone Services Dropdown 1-->
+                                 <li><a class="dropdown-item" href="360Drone">360 Invisible Drone</a></li>
+                                 <!--Navbar Drone Services Dropdown 2-->
+                                 <li><a class="dropdown-item" href="360Drone">360 Virtual Video Tour</a></li>
+                                 <li><hr class="dropdown-divider"></li>
+                                 <!--Navbar Drone Services Dropdown 3-->
+                                 <li><a class="dropdown-item" href="360Drone">360 Aerial Footage</a></li>
+                               </ul>
+                             </li>
+                       </li>
+                       <li class="navbar-item">
+                         <!--Navbar About Title-->
+                           <a href="About" class="nav-link">About</a>
+                       </li>
+                       </ul>
+                   </div>
+                  </div> 
+                </div>
+               </nav>
 
             <!-- === Showcase === -->
 <section class="bg-dark text-light p-5 mt-5 text-center text-sm-start">
