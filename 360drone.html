@@ -26,55 +26,63 @@
   <body>
                 <!--Navbar previous-->
 
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-                    <div class="container-fluid">  
-                     <a class="navbar-brand" href="/">
-                         <img src="img/Logo (white).png" alt="addvantage" width="80" height="60" class="d-inline-block align-text-center">
-                         Add-vantage
-                       </a>
-         
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
-                     >
-                 <span class="navbar-toggler-icon"></span>
-                 </button>
-         
-                 
-                     <div class="collapse navbar-collapse" id="navmenu">
-                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                             <li class="navbar-item">
-                                 <a href="Demo" class="nav-link">Demo</a>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+                  <div class="container-fluid">  
+                   <a class="navbar-brand" href="/">
+                       <img src="img/Logo (white).png" alt="addvantage" width="80" height="60" class="d-inline-block align-text-center">
+                       <span class="text-muted"> Add-vantage</span>
+                     </a>
+       
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+                   >
+               <span class="navbar-toggler-icon"></span>
+               </button>
+       
+               
+                   <div class="collapse navbar-collapse" id="navmenu">
+                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                           <li class="navbar-item">
+                             <!--Navbar Demo Title-->
+                               <a href="Demo" class="nav-link">Demo</a>
+                           </li>
+                           <!--Navbar Virtual Services Dropdown Title-->
+                           <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Virtual Services
+                               </a>
+                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <!--Navbar Dropdown 1-->
+                                 <li><a class="dropdown-item" href="VirtualServices#virtualstaging">Virtual Staging</a></li>
+                                 <!--Navbar Dropdown 2-->
+                                 <li><a class="dropdown-item" href="VirtualServices#virtualshowcase">Virtual Showcase</a></li>
+                                 <li><hr class="dropdown-divider"></li>
+                                 <!--Navbar Dropdown 3-->
+                                 <li><a class="dropdown-item" href="VirtualServices#gsv">Google Street View</a></li>
+                               </ul>
                              </li>
                              <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Virtual Services
-                                 </a>
-                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <li><a class="dropdown-item" href="VirtualServices">Virtual Tours</a></li>
-                                   <li><a class="dropdown-item" href="VirtualServices">Virtual Staging</a></li>
-                                   <li><hr class="dropdown-divider"></li>
-                                   <li><a class="dropdown-item" href="VirtualServices">Google Street View</a></li>
-                                 </ul>
-                               </li>
-                               <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="360Drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Drone Services
-                                 </a>
-                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   <li><a class="dropdown-item" href="360Drone">360 Invisible Drone</a></li>
-                                   <li><a class="dropdown-item" href="360Drone">360 Virtual Video Tour</a></li>
-                                   <li><hr class="dropdown-divider"></li>
-                                   <li><a class="dropdown-item" href="360Drone">360 Aerial Footage</a></li>
-                                 </ul>
-                               </li>
-                         </li>
-                         <li class="navbar-item">
-                             <a href="360drone" class="nav-link">About</a>
-                         </li>
-                         </ul>
-                     </div>
-                    </div> 
-         
-                 </nav>
+                               <!--Navbar Dropdown Drone Services Title-->
+                               <a class="nav-link dropdown-toggle" href="360drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Drone Services
+                               </a>
+                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <!--Navbar Drone Services Dropdown 1-->
+                                 <li><a class="dropdown-item" href="#360invisibledrone">360 Invisible Drone</a></li>
+                                 <!--Navbar Drone Services Dropdown 2-->
+                                 <li><a class="dropdown-item" href="#aerialdronefootage">Aerial Drone Footage</a></li>
+                                 <li><hr class="dropdown-divider"></li>
+                               </ul>
+                             </li>
+                       </li>
+                       <li class="navbar-item">
+                         <!--Navbar About Title-->
+                           <a href="About" class="nav-link">About</a>
+                       </li>
+                       </ul>
+                   </div>
+                  </div> 
+                </div>
+               </nav>
 
             <!-- === Showcase === -->
 <section class="bg-dark text-light p-5 text-center text-sm-start">
@@ -118,55 +126,64 @@
 </section>
             <!-- Large Section for Info-->
 
-<section class="p-5">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md">
-                <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-md p-5">
-                <h2>360 Invisible Drone</h2>
-                <p class="lead">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestiae ab, est 
-                    voluptatem veritatis explicabo.
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Obcaecati totam sunt vero quidem maxime, laborum odit minus quasi suscipit expedita?
-                </p>
-                <a href="#" class="btn btn-secondary mt-3">
-                    <i class="bi bi-chevron-right"></i>Read More
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+            <section id="360invisibledrone" class="p-3">
+              <div class="container">
+                <h2 class="text-center py-3 mb-3">360 Invisible Drone</h2>
+                  <div class="row align-items-center justify-content-between">
+                      <div class="col-md">
+                          <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-md">
+                          <h3 class="my-3">What is 360 invisible drone technology</h3>
+                          <p class="lead">
+                            We believe that drones have many more uses that can be used to capture our world in captivating ways. That’s why 
+                            we took our time constructing a drone that can navigate small spaces and capture with great detail its surroundings 
+                            whilst remaining completely invisible within the footage. 
+                          </p>
+                          <h3>How it works</h3>
+                          <p>
+                            Let us know what your project is, what you are hoping to accomplish and schedule an appointment for our drone 
+                            project director to help you bring your vision to life. After capturing your media we can also help with editing
+                             or simply deliver your files in your preferred format to you. 360 drone footage is compatible with our virtual
+                              showcase platform and can be integrated to deliver an even more immersive experience to your prospects.  
+                          </p>
+                          <h3>Why should I use this</h3>
+                          <p>
+                            Drone footage is most often used in 2D form and although there are companies out there that can deliver 360 aerial
+                             drone footage it is often distorted once a closer more detailed approach is needed. We have built the perfect drone
+                              to combat the proximity issue which allows us to get really close whilst maintaining quality and smoothness. 360 drone
+                               footage is very customizable allowing you to get creative with your project. 
+                          </p>
+                          <a href="#" class="btn btn-secondary mt-3">
+                              <i class="bi bi-chevron-right"></i>Read More
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
     <!-- Section 2-->
 
-    <section class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2>360° Virtual Video Tour</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestiae ab, est 
-                        voluptatem veritatis explicabo.
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                         Obcaecati totam sunt vero quidem maxime, laborum odit minus quasi suscipit expedita?
-                    </p>
-                    <a href="#" class="btn btn-secondary mt-3">
-                        <i class="bi bi-chevron-right"></i>Read More
-                    </a>
-                </div>
-                <div class="col-md">
-                    <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="aerialdronefootage" class="p-3 bg-dark text-light">
+      <div class="container">
+        <h2 class="text-center py-3 mb-3">Aerial Drone Footage</h2>
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                  <p class="lead">
+                    We also offer aerial drone video and photo services, which can also be done
+                     in 360 degrees. Let us know what you have in mind and our head of drones services
+                      will get in contact and work with you to get the results you need.  
+                  </p>
+                  <a href="#" class="btn btn-secondary mt-3">
+                      <i class="bi bi-chevron-right"></i>Read More
+                  </a>
+              </div>
+              <div class="col-md">
+                  <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
 
             <!-- FAQ Center-->
 
