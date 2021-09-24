@@ -1,6 +1,15 @@
 .carousel-inner img{
     max-height: 600px;
 }
+
+/* Features */
+#features {
+    background-image: url(img/infosectionbg_00000.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
 /*
 .video-background {
     position: relative;
