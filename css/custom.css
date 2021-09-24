@@ -5,16 +5,17 @@
 /* Features */
 #features {
     background-image:url(/img/infosectionbg_00000.jpg);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
 
 @media (max-width: 768px) {
     #features {
         background-image: url(/img/infosectionbg_00000.jpg);
-        background-size: cover;
+        background-attachment: scroll;
     }
 }
 
