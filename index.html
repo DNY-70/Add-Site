@@ -27,6 +27,7 @@
   
               <!-- === HEADER === -->
     </head>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <body>
                   <!--Navbar-->
                   <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
@@ -244,13 +245,16 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-md p-2">
                             <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+                            <script>
+                              ScrollReveal() .reveal('.img-fluid',{duration: 1000})
+                            </script>
                         </div>
                         <div class="col-md ">
-                            <h2>Why we do what we do</h2>
+                            <h2 class="title">Why we do what we do</h2>
                             <p class="lead">
                               Our main goal is to help you present your business in a professional way.
                             </p>
-                            <p>
+                            <p class="description">
                               We are a solution oriented company, we are able to work with or utilize most 
                               platforms giving you the flexibility you need to complete your project.
                             </p>
@@ -278,6 +282,9 @@
                       </div>
                       <div class="col-md p-2">
                           <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+                          <script>
+                            ScrollReveal() .reveal('.img-fluid',{duration: 1000})
+                          </script>
                       </div>
                   </div>
               </div>
@@ -287,7 +294,10 @@
 <section>
 
   <div class="container bg-secondary p-4">
-    <h2 class="text-center p-3 text-light"> <strong>Some of the things we do...</strong></h2>
+    <h2 class="title text-center p-3 text-light"> <strong>Some of the things we do...</strong></h2>
+    <script>
+      ScrollReveal().reveal('.title')
+    </script>
     <div class="row">
       <div class="col-lg">
           <!--Accordion 1 Title-->
@@ -441,7 +451,10 @@
   
       <section>
          <div class="container bg-secondary">
-             <h2 class="text-center text-light mb-4">Frequently Asked Questions</h2>
+             <h2 class="FAQ text-center text-light mb-4">Frequently Asked Questions</h2>
+             <script>
+              ScrollReveal() .reveal('.FAQ',{duration: 1000})
+            </script>
              <div class="accordion accordion-flush" id="FAQFlush">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">

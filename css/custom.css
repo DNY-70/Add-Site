@@ -14,8 +14,7 @@
 
 @media (max-width: 768px) {
     #features {
-        background-image: url(/img/infosectionbg_00000.jpg);
-        background-attachment: scroll;
+        display: none;
     }
 }
 
