@@ -7,8 +7,10 @@
     background-image:url(/img/infosectionbg_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 500px;
+    width: 100%;
+    min-height: 100vh;
 }
+
 
 /*
 .video-background {
