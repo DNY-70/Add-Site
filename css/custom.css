@@ -5,12 +5,18 @@
 /* Features */
 #features {
     background-image:url(/img/infosectionbg_00000.jpg);
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+    #features {
+        background-image: url(/img/infosectionbg_00000.jpg);
+        background-size: cover;
+    }
+}
 
 /*
 .video-background {
