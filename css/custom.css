@@ -1,10 +1,15 @@
 .carousel-inner img{
     max-height: 600px;
 }
+@media (max-width-768px) {
+    .carousel-inner img{
+        max-height 800px;
+    }
+}
 
 /* Features */
 #features {
-    background-image:url(/img/infosectionbg_00000.jpg);
+    background-image:url(/img/infosectionbg_00000_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -14,7 +19,23 @@
 
 @media (max-width: 768px) {
     #features {
-        background-image: none;
+        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-attachment: scroll;
     }
 }
 
+#features2 {
+    background-image:url(/img/infosectionbg_black_00000.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+@media (max-width: 768px) {
+    #features2 {
+        background-image: url(/img/infosectionbg_mobile_white_00000.jpg);
+        background-attachment: scroll;
+    }
+}
