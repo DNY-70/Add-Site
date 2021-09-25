@@ -1,10 +1,5 @@
 .carousel-inner img{
-    max-height: 600px;
-}
-@media (max-width-768px) {
-    .carousel-inner img{
-        max-height 800px;
-    }
+    max-height: 650px;
 }
 
 /* Features */
@@ -19,7 +14,7 @@
 
 @media (max-width: 768px) {
     #features {
-        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-image: url(/img/infosectionbg_00000_00000.jpg);
         background-attachment: scroll;
     }
 }
