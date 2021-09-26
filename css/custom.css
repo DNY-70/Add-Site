@@ -4,6 +4,7 @@
 
 /* Features */
 #features {
+    background-image: url(/img/infosectionbg_00000_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -12,25 +13,8 @@
     background-color: #6C757D;
 }
 
-@media (max-width: 480px) {
-    #features {
-        background-image: none;
-        background-attachment: scroll;
-    }
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-    #features {
-        background-image: url(/img/infosection_mobile_00000.jpg);
-    }
-}
-
-@media (min-width: 1025px) {
-    #features {
-        background-image: url(/img/infosectionbg_00000_00000.jpg)
-    }
-}
-
-#features2 {
+#sectionbackground {
+    background-image: url(/img/infosectionbg_black_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -38,15 +22,4 @@
     min-height: 500px;
     background-color: #6C757D;
 
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-    #features2 {
-        background-image: url(/img/infosectionbg_mobile_white_00000.jpg);
-    }
-}
-
-@media (min-width: 1025px) {
-    #features2 {
-        background-image: url(/img/infosectionbg_black_00000.jpg)
-    }
 }
