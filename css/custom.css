@@ -13,7 +13,8 @@
 
 @media (max-width: 480px) {
     #features {
-        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-image: url(/img/infosection_mobile_00000_00000.jpg);
+        background-attachment: scroll;
     }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
