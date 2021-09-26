@@ -15,7 +15,6 @@
 @media (max-width: 480px) {
     #features {
         background-image: none;
-        background-attachment: scroll;
     }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -43,7 +42,6 @@
 @media (max-width: 480px) {
     #features2 {
         background-image: none;
-        background-attachment: scroll;
     }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
