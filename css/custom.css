@@ -14,7 +14,7 @@
 
 @media (max-width: 480px) {
     #features {
-        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-image: none;
         background-attachment: scroll;
     }
 }
@@ -42,7 +42,7 @@
 
 @media (max-width: 480px) {
     #features2 {
-        background-image: url(/img/infosectionbg_mobile_white_00000.jpg);
+        background-image: none;
         background-attachment: scroll;
     }
 }
