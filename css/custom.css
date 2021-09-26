@@ -4,7 +4,6 @@
 
 /* Features */
 #features {
-    background-image:url(/img/infosectionbg_00000_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -13,23 +12,49 @@
     background-color: #6C757D;
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 480px) {
     #features {
-        background-image: none;
+        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-attachment: scroll;
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    #features {
+        background-image: url(/img/infosection_mobile_00000.jpg);
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 1025px) {
+    #features {
+        background-image: url(/img/infosectionbg_00000_00000.jpg)
     }
 }
 
 #features2 {
-    background-image:url(/img/infosectionbg_black_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     min-height: 500px;
+    background-color: #6C757D;
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 480px) {
     #features2 {
-        background-image: none;
+        background-image: url(/img/infosectionbg_mobile_white_00000.jpg);
+        background-attachment: scroll;
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    #features2 {
+        background-image: url(/img/infosectionbg_mobile_white_00000.jpg);
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 1025px) {
+    #features2 {
+        background-image: url(/img/infosectionbg_black_00000.jpg)
     }
 }
