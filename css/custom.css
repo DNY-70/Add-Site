@@ -7,12 +7,13 @@
     background-image:url(/img/infosectionbg_00000_00000.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     min-height: 500px;
+    background-color: #6C757D;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #features {
         background-image: none;
     }
@@ -27,7 +28,7 @@
     min-height: 500px;
 }
 
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #features2 {
         background-image: none;
     }
