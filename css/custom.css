@@ -5,7 +5,6 @@
 /* Features */
 #features {
     background-size: cover;
-    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 500px;
@@ -14,7 +13,7 @@
 
 @media (max-width: 480px) {
     #features {
-        background-image: none;
+        background-image: url(/img/infosection_mobile_00000.jpg);
     }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -26,7 +25,8 @@
 
 @media (min-width: 1025px) {
     #features {
-        background-image: url(/img/infosectionbg_00000_00000.jpg)
+        background-image: url(/img/infosectionbg_00000_00000.jpg);
+        background-attachment: fixed;
     }
 }
 
