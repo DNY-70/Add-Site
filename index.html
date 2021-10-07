@@ -198,38 +198,32 @@
                             <label for="PhoneFormControlInput1" class="form-label">Phone Number</label>
                             <input type="text" name="Phone Number" class="form-control" id="PhoneFormControlInput1" placeholder="805-588-3557">
                           </div>
-                          
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Services" id="Services1">
-                            <label class="form-check-label" for="Services1">
-                              Virtual Showcase (Tour) Services
-                            </label>
+                          <div class="container">
+                            <select class="form-select" name="Project" aria-label="Default select Project">
+                              <!--ModalForm Project Selection-->
+                              <option selected>What is the project for?</option>
+                              <option value="Virtual Tour Services">Virtual Tour Services</option>
+                              <option value="Virtual Staging Services">Virtual Staging Services</option>
+                              <option value="Drone Services">Drone Services</option>
+                              <option value="Other">Other</option>
+                            </select>
                           </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Services" id="Services2">
-                            <label class="form-check-label" for="Services2">
-                              Virtual Staging Services
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Services" id="Services3">
-                            <label class="form-check-label" for="Services3">
-                              Drone Services
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Services" id="Services4" checked>
-                            <label class="form-check-label" for="Services4">
-                              Other (or more than one)
-                            </label>
+                          <div class="container pt-3">
+                            <select class="form-select" name="Contact Method" aria-label="Default select ContactMethod">
+                              <!--ModalForm Contact Method Selection-->
+                              <option selected>Preferred contact method</option>
+                              <option value="Email">Email</option>
+                              <option value="Call">Call</option>
+                              <option value="Text">Text</option>
+                            </select>
                           </div>
                           <div class="mb-3 pt-3">
                             <label for="NoteFormControlTextarea1" class="form-label">Custom note</label>
                             <textarea class="form-control" name="Custom Note" id="NoteFormControlTextarea1" rows="3"></textarea>
                           </div>
                           <div class="container pt-2">
-                            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-dark text-light">Submit</button>
+                            <button type="submit" class="btn btn-outline-secondary opacity-75" data-bs-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-outline-dark">Submit</button>
                           </div>
                         </form>
                         </div>
