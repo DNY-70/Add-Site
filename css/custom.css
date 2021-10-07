@@ -23,3 +23,19 @@
     background-color: #6C757D;
 
 }
+
+@media (max-width: 768px) {
+    #showcasebtn {
+      padding:4px 4px;
+      font-size:80%;
+      line-height: 1;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    #showcasebtn {
+      padding:9px 9px;
+      font-size:90%;
+      line-height: 1.2;
+    }
+  }
