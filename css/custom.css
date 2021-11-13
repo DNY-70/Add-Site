@@ -1,5 +1,29 @@
+
+
+  /* floating button */
+
+  .bi-chat-right-dots-fill{
+    position: relative;
+    bottom: -20px;
+  }
+
+.float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(69, 72, 76);
+	color:rgb(255, 255, 255);
+	border-radius:50px;
+  text-align: center;
+	box-shadow: 2px 2px 3px rgba(195, 0, 255, 0.445);
+  z-index: 1000;
+}
+
+
 .carousel-inner img{
-    max-height: 700px;
+    max-height: 650px;
 }
 
 /* Features */
