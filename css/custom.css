@@ -26,6 +26,11 @@
     max-height: 800px;
 }
 
+@media (max-width: 768px) {
+  .carousel-inner img{
+    max-height: 700px;
+  }
+}
 /* Features */
 #features {
     background-image: url(/img/infosectionbg_00000_00000.jpg);
