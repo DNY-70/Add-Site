@@ -2,9 +2,10 @@
 
   /* floating button */
 
-  .bi-chat-right-dots-fill{
+  .bi-telephone-plus{
     position: relative;
-    bottom: -20px;
+    bottom: -15px;
+    font-size: x-large;
   }
 
 .float{
