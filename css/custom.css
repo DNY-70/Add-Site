@@ -24,7 +24,7 @@
 
 
 .carousel-inner img{
-    max-height: 700px;
+    max-height: 750px;
 }
 
 /* Features */
@@ -63,4 +63,8 @@
       font-size:90%;
       line-height: 1.2;
     }
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
