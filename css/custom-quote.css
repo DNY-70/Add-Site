@@ -2,27 +2,29 @@ body {
     overflow: hidden;
 }
 
-.snap-embed {
-    position: relative;
-    z-index: auto;
-    height: 100vh;
-    opacity: 100%;
-}
-
-.landing-text {
-    position: absolute;
-    z-index: 7;
-    top: 30%; right: 32%;
-}
-
-.landing-icons {
-    position: absolute;
-    z-index: 7;
-    top: 43%; right: 50%;
-}
-
 .upload-button {
     border-radius: 50%;
+}
+
+.stage-button {
+    border-radius: 50%;
+}
+
+.drone-button {
+    border-radius: 50%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.snap-embed {
+    height: 100vh;
+    position: relative;
+    opacity: 75%;
 }
 /* devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
