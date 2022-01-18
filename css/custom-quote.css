@@ -16,7 +16,7 @@ body {
 
 .content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 100%;
 }
@@ -26,6 +26,15 @@ body {
     position: relative;
     opacity: 75%;
 }
+
+a {
+    display: block;
+    text-decoration: none;
+}
+li:hover::before {
+    color: rgb(238, 4, 4);
+}
+
 /* devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
 

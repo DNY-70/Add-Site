@@ -27,10 +27,10 @@
         <div class="full-landing">
 <div data-aspect-width="16" data-aspect-height="9" class="snap-embed"><span>Fulfill your sharing needs</span><a href="https://seekbeak.com/v/eEB1543DqgV" target="_blank">Snap Content</a></div><script async src="https://seekbeak.com/js/sbembed.js" charset="utf-8"></script>
 
-            <div class="content text-center text-uppercase text-dark">
+            <div class="content text-center text-dark">
 
                 <div class="landing-text">
-                <h4 class="text-light opacity-50">Add-Vantage</h4>
+                  <img src="img/+vantage concept.svg" class="opacity-50" height="200px" width="250px" alt="">
                 <h1><span class="text-muted">360</span> Digital Media Services</h1>
                 </div>
 
@@ -42,65 +42,78 @@
                 <div class="landing-icons col-3 col-sm-2 col-lg-1 p-0">
                    
                     <p>
-                        <button class="upload-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthUpload" aria-expanded="false" aria-controls="collapseWidthUpload">
+                        <button class="upload-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#VToffcanvas" aria-controls="VToffcanvas">
                             <i class="bi bi-cloud-upload-fill"></i>
                         </button>
                         <p class="p-0">360 Media</p>
                       </p>
-                      <div style="min-height: 120px;">
-                        <div class="collapse" id="collapseWidthUpload">
-                          <div class="card card-body" style="width: 300px;">
-                            <ul class="list-group list-group-flush">
-                                <li><a class="list-group-item" href="#">Upload Media</a></li>
-                                <li><a class="list-group-item" href="#">Schedule a Scan</a></li>
-                                <li><a class="list-group-item" href="#">Transfer a Tour</a></li>
-                              </ul>
-                            </div>
+
+                      <div class="offcanvas offcanvas-top" tabindex="-1" id="VToffcanvas" aria-labelledby="VToffcanvasLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="DroneoffcanvasLabel">Virtual Showcases and Tours</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            <ul class="list-group bg-primary list-group-flush">
+                              <li class="list-group-item"><a class="link-secondary" href="#">Scanning and hosting quote</a></li>
+                              <li class="list-group-item"><a class="link-secondary" href="#">Receive a quickstart link</a></li>
+                            </ul>
                           </div>
                         </div>
+                      </div>
+
                     </div>
-                        
-                        <div class="landing-icons col-3 col-sm-2 col-lg-1 p-0">
-                            <p>
-                                <button class="stage-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthStaged" aria-expanded="false" aria-controls="collapseWidthStaged">
-                                    <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                                </button>
-                                <p class="p-0">Staging</p>
-                              </p>
-                              <div style="min-height: 120px;">
-                                <div class="collapse" id="collapseWidthStaged">
-                                  <div class="card card-body" style="width: 300px;">
-                                    <ul class="list-group list-group-flush">
-                                        <li><a class="list-group-item" href="#">2D Staging</a></li>
-                                        <li><a class="list-group-item" href="#">360 Staging</a></li>
-                                        <li><a class="list-group-item" href="#">Other Digital Renders</a></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
 
-                            </div>
-
-                            <div class="landing-icons col-3 col-sm-2 col-lg-1 p-0">
+                         <div class="landing-icons col-3 col-sm-2 col-lg-1 p-0">
                                 <p>
-                                    <button class="drone-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthdrone" aria-expanded="false" aria-controls="collapseWidthdrone">
+                                    <button class="drone-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#Droneoffcanvas" aria-controls="Droneoffcanvas">
                                         <img src="img/drone-icon-vector-9.svg" height="25px" width="20px" alt="">
                                     </button>
                                     <p class="p-0">Drone</p>
                                   </p>
-                                  <div style="min-height: 120px;">
-                                    <div class="collapse" id="collapseWidthdrone">
-                                      <div class="card card-body" style="width: 300px;">
-                                        <ul class="list-group list-group-flush">
-                                            <li><a class="list-group-item disabled" href="#">Invisible Drone</a></li>
-                                            <li><a class="list-group-item disabled" href="#">Lidar Scan</a></li>
-                                            <li><a class="list-group-item disabled" href="#">Video/Photo Drone Shoot</a></li>
-                                          </ul>
+
+                                  <div class="offcanvas offcanvas-top" tabindex="-1" id="Droneoffcanvas" aria-labelledby="DroneoffcanvasLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="DroneoffcanvasLabel">360 Degree and Lidar Drone Services</h5>
+                                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                      <div>
+                                        <div class="alert alert-dark text-center" role="alert">
+                                         <strong class="muted">Thanks your interest!</strong> Currently we are not offering drone services as we make some upgrades but we'll be back soon.
                                         </div>
                                       </div>
                                     </div>
+                                  </div>
     
                                 </div>
+
+                        <div class="landing-icons col-3 col-sm-2 col-lg-1 p-0">
+                            <p>
+                                <button class="stage-button btn btn-lg btn-secondary opacity-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#Stagingoffcanvas" aria-controls="Stagingoffcanvas">
+                                    <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                                </button>
+                                <p class="p-0">Staging</p>
+                              </p>
+
+                              <div class="offcanvas offcanvas-top" tabindex="-1" id="Stagingoffcanvas" aria-labelledby="StagingoffcanvasLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="StagingoffcanvasLabel">2D & 3D Virtual Staging</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <div>
+                                    <ul class="list-group list-group-flush bg-primary">
+                                      <li class="list-group-item"><a class="link-secondary" href="#">Receive a quickstart link</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                           
                     
                 </div>
             </div>
