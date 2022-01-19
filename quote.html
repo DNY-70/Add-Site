@@ -54,7 +54,7 @@
                           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                          <div>
+                          <div class="m-5">
                             <ul class="list-group bg-primary list-group-flush">
                               <li class="list-group-item bg-secondary"><a class="link-light" data-bs-toggle="modal" data-bs-target="#QuoteForm" href="#">Scanning and hosting quote</a></li>
                               <li class="list-group-item bg-secondary"><a class="link-light" data-bs-toggle="modal" data-bs-target="#QuickStart" href="#">Receive a quickstart link</a></li>
@@ -79,7 +79,7 @@
                                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
-                                      <div>
+                                      <div class="m-5">
                                         <div class="alert alert-dark text-center" role="alert">
                                          <strong class="muted">Thanks your interest!</strong> Currently we are not offering drone services as we make some upgrades but we'll be back soon.
                                         </div>
@@ -103,9 +103,9 @@
                                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                  <div>
+                                  <div class="m-5">
                                     <ul class="list-group list-group-flush bg-primary">
-                                      <li class="list-group-item bg-secondary"><a class="link-light" data-bs-toggle="modal" data-bs-target="#StagingForm" href="#">Receive a quickstart link</a></li>
+                                      <li class="list-group-item bg-secondary"><a class="link-light" data-bs-toggle="modal" data-bs-target="#QuickStart" href="#">Receive a quickstart link</a></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -123,11 +123,11 @@
                               <div class="modal-dialog">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title" id="QuickStartLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="QuickStartLabel">Receive a link to get started</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
-
+                                    <p class="text-center small">If you are ready to get started leave your email below to receive a unique link to begin the process</p>
                         
                                   <div class="container">
                                     <form action="https://formsubmit.co/landing@vantageadd.com" method="POST" enctype="multipart/form-data">
@@ -147,17 +147,8 @@
                                     </div>
                                     <div class="mb-3">
                                       <!--ModalForm Phone Number-->
-                                      <label for="PhoneFormControlInput3" class="form-label">Phone number</label>
+                                      <label for="PhoneFormControlInput3" class="form-label">Phone number <span class="text-muted">(optional)</span></label>
                                       <input type="text" name="Phone Number" class="form-control" id="PhoneFormControlInput1" placeholder="805-588-3557 - call us !">
-                                    </div>
-                                    <div class="mb-3">
-                                      <!--ModalForm Address-->
-                                      <label for="PhoneFormControlInput4" class="form-label">Property address</label>
-                                      <input type="text" name="Address" class="form-control" required id="AddressFormControlInput1" placeholder="We use this information to generate a quote">
-                                    </div>
-                                    <div class="mb-3 pt-3">
-                                      <label for="NoteFormControlTextarea1" class="form-label">Custom note</label>
-                                      <textarea class="form-control" name="Custom Note" placeholder="Tell us more about your request" id="NoteFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <div class="container pt-2">
                                       <button type="submit" class="btn btn-outline-secondary opa" data-bs-dismiss="modal">Close</button>
@@ -176,15 +167,15 @@
                               <div class="modal-dialog">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title" id="QuoteFormLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="QuoteFormLabel">Get a quote free quote</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
+                                    <p class="text-center small">Enter the following details to receive a quick quote for your next or current virtual listing</p>
                                     
                                     <div class="container">
                                       <form action="https://formsubmit.co/landing@vantageadd.com" method="POST" enctype="multipart/form-data">
                                         <input type="hidden" name="_next" value="https://www.vantageadd.com/thankyouabout">
-                                        <input type="hidden" name="_captcha" value="false">
                                       <div class="row">
                                           <!--ModalForm Name-->
                                         <label for="NameFormControlInput1" class="form-label">Full name</label>
@@ -221,58 +212,6 @@
                                 </div>
                               </div>
                             </div>
-                            </div>
-
-                            <!--Staging Form Modal-->
-                            <div class="modal fade" id="StagingForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="StagingFormLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="StagingFormLabel">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    
-                                    <div class="container">
-                                      <form action="https://formsubmit.co/landing@vantageadd.com" method="POST" enctype="multipart/form-data">
-                                        <input type="hidden" name="_next" value="https://www.vantageadd.com/thankyouabout">
-                                        <input type="hidden" name="_captcha" value="false">
-                                      <div class="row">
-                                          <!--ModalForm Name-->
-                                        <label for="NameFormControlInput1" class="form-label">Full name</label>
-                                        <div class="col">
-                                          <input type="text" name="First Name" class="form-control" placeholder="Your name here" aria-label="Full name" required>
-                                        </div>
-                                      </div>
-                                      <div class="mb-3 pt-3">
-                                        <!--ModalForm Email-->
-                                        <label for="EmailFormControlInput2" class="form-label">Email address</label>
-                                        <input type="email" name="Email" class="form-control" required id="EmailFormControlInput1" placeholder="support@vantageadd.com - email us !">
-                                      </div>
-                                      <div class="mb-3">
-                                        <!--ModalForm Phone Number-->
-                                        <label for="PhoneFormControlInput3" class="form-label">Phone number</label>
-                                        <input type="text" name="Phone Number" class="form-control" id="PhoneFormControlInput1" placeholder="805-588-3557 - call us !">
-                                      </div>
-                                      <div class="mb-3">
-                                        <!--ModalForm Address-->
-                                        <label for="PhoneFormControlInput4" class="form-label">Property address</label>
-                                        <input type="text" name="Address" class="form-control" required id="AddressFormControlInput1" placeholder="We use this information to generate a quote">
-                                      </div>
-                                      <div class="mb-3 pt-3">
-                                        <label for="NoteFormControlTextarea1" class="form-label">Custom note</label>
-                                        <textarea class="form-control" name="Custom Note" placeholder="Tell us more about your request" id="NoteFormControlTextarea1" rows="3"></textarea>
-                                      </div>
-                                      <div class="container pt-2">
-                                        <button type="submit" class="btn btn-outline-secondary opa" data-bs-dismiss="modal">Close</button>
-                                      <button type="submit" class="btn btn-outline-dark">Submit</button>
-                                      </div>
-                                    </form>
-                                  </div>
-
-                                  </div>
-                                </div>
-                              </div>
                             </div>
                                     
 
