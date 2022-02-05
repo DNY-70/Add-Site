@@ -24,7 +24,6 @@ body {
 .snap-embed {
     height: 100vh;
     position: relative;
-    opacity: 75%;
 }
 
 a {
