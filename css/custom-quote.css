@@ -14,9 +14,16 @@ body {
     border-radius: 50%;
 }
 
-.content {
+.contentbuttons {
     position: absolute;
-    top: 20%;
+    top: 85%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.landing-text {
+    position: absolute;
+    top: 10%;
     transform: translateY(-50%);
     width: 100%;
 }
