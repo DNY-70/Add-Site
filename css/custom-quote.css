@@ -16,7 +16,7 @@ body {
 
 .contentbuttons {
     position: absolute;
-    top: 86%;
+    top: 85%;
     transform: translateY(-50%);
     width: 100%;
 }
