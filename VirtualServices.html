@@ -35,7 +35,7 @@
       InitCallbackWidget();
   </script>
                 <!--Navbar previous-->
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+                <nav class="navbar navbar-expand-lg bg-dark opacity-75 navbar-dark fixed-top">
                   <div class="container-fluid">  
                    <a class="navbar-brand" href="/">
                        <img src="img/Logo (white).png" alt="addvantage" width="80" height="60" class="d-inline-block align-text-center">
@@ -52,16 +52,16 @@
                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                            <li class="navbar-item">
                              <!--Navbar Demo Title-->
-                               <a href="Demo" class="nav-link">Demo</a>
+                               <a href="Demo" class="text-light lead nav-link">Demo</a>
                            </li>
                            <!--Navbar Virtual Services Dropdown Title-->
                            <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               <a class="nav-link lead text-light dropdown-toggle" href="VirtualServices" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                  Virtual Services
                                </a>
                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                  <!--Navbar Dropdown 1-->
-                                 <li><a class="dropdown-item" href="#virtualstaging">Virtual Staging</a></li>
+                                 <li><a class="dropdown-item " href="#virtualstaging">Virtual Staging</a></li>
                                  <!--Navbar Dropdown 2-->
                                  <li><a class="dropdown-item" href="#virtualshowcase">Virtual Showcase</a></li>
                                  <li><hr class="dropdown-divider"></li>
@@ -71,7 +71,7 @@
                              </li>
                              <li class="nav-item dropdown">
                                <!--Navbar Dropdown Drone Services Title-->
-                               <a class="nav-link dropdown-toggle" href="360drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               <a class="nav-link lead dropdown-toggle text-light" href="360drone" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                  Drone Services
                                </a>
                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -85,7 +85,7 @@
                        </li>
                        <li class="navbar-item">
                          <!--Navbar About Title-->
-                           <a href="About" class="nav-link">About</a>
+                           <a href="About" class="text-light lead nav-link">About</a>
                        </li>
                        </ul>
                    </div>
@@ -94,44 +94,80 @@
                </nav>
 
             <!-- === Showcase === -->
-<section class="bg-dark text-light p-5 mt-5 text-center text-sm-start">
-    <div class="container">
-        <div class="d-md-flex align-items-center 
-        justify-content-between">
-            <div>
-                <h1> <span class="text-muted">360°</span>  Digital Media Services</h1>
-                <p class="lead my-6">
+            <section class="my-2 pt-5 pt-md-4 pt-lg-3 pt-xl-2 pt-xxl-0">
 
-                    Virtual Services
-
-                </p>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#inquire">
-                    Inquire Here
-                  </button>
-
-                  <div class="modal fade" id="inquire" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-            </div>
-         <img class="img-fluid w-50 d-none d-md-block" src="img/Groupphoto01.jpg" alt=""/>
-                <!-- d-none d-md-block to remove media on md-->   
-        </div>
+  <div id="showcasecarouselcaptions" class="pt-4 pt-md-3 pt-lg-2 pt-xl-1 pt-xxl-0 carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators d-none d-md-block opacity-25">
+      <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/3d_room_mockup_virtual-services.png" class="d-none d-lg-block w-100" alt="3D mock up, virtual stagin">
+        <img src="img/3d_room_mockup_virtual-services_mobile.png" class="d-block d-md-block d-lg-none w-100" alt="3D mock up, virtual staging mobile">
+        <div class="carousel-caption d-md-block">
+          <!--Carousel First Slide-->
+          <h1 class="text-lg-end d-none d-md-block mt-md-3 mb-lg-5"><span class="text-dark">360°</span>  Digital Media Services</h1>
+          <h2 class="text-end">Virtual <span class="text-dark">Staging</span></h2>
+          <p class="lead text-lg-end d-none d-md-block">Upload and receive your render within 48 hours!</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button id="showcasebtn" type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#">
+            Get a quote
+          </button>
+          <a id="showcasebtn" href="VirtualServices#virtualstaging" role="button" class="btn btn-secondary opacity-75">
+            Learn More
+        </a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3d_room_mockup_showcases (0;00;00;00).jpg" class="d-none d-lg-block w-100" alt="3D mock up, virtual showcases and tours">
+        <img src="img/3d_room_mockup_showcases_mobile (0;00;00;00).jpg" class="d-block d-md-block d-lg-none w-100" alt="3D mock up, virtual showcases and tours mobile">
+        <div class="carousel-caption d-sm-block">
+          <!--Carousel Second Slide-->
+          <h1 class="text-lg-end d-none d-md-block mt-md-3 mb-lg-5"> <span class="text-dark">360°</span>  Digital Media Services</h1>
+          <h2 class="text-end">Virtual <span class="text-dark">Showcases</span> and <span class="text-dark">Tours</span></h2>
+          <p class="lead text-lg-end d-none d-md-block">Demonstrate a property in 3D, schedule a scan or upload to get started!</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button id="showcasebtn" type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#">
+            Get a quote
+          </button>
+          <a id="showcasebtn" href="VirtualServices#virtualshowcase" role="button" class="btn btn-secondary opacity-75">
+            Learn More
+        </a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3d_room_mockup_showcases (0;00;00;00).jpg" class="d-none d-lg-block w-100" alt="3D mock up, virtual showcases and tours">
+        <img src="img/3d_room_mockup_showcases_mobile (0;00;00;00).jpg" class="d-block d-md-block d-lg-none w-100" alt="3D mock up, virtual showcases and tours mobile">
+        <div class="carousel-caption d-sm-block">
+          <!--Carousel Second Slide-->
+          <h1 class="text-lg-end d-none d-md-block mt-md-3 mb-lg-5"> <span class="text-dark">360°</span>  Digital Media Services</h1>
+          <h2 class="text-end">Virtual Showcases - <span class="text-dark">Google Street View</span></h2>
+          <p class="lead text-lg-end d-none d-md-block">Upload and maintenance support for GSV showcases</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button id="showcasebtn" type="button" class="btn btn-dark opacity-75" data-bs-toggle="modal" data-bs-target="#">
+            Get a quote
+          </button>
+          <a id="showcasebtn" href="VirtualServices#virtualshowcase" role="button" class="btn btn-secondary opacity-75">
+            Learn More
+        </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon opacity-0" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#showcasecarouselcaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon opacity-0" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 </section>
             <!-- Large Section for Info-->
 
@@ -140,7 +176,7 @@
       <h2 class="text-center py-3 mb-3">Virtual Staging</h2>
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
-                <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+              <div data-aspect-width="16" data-aspect-height="9" class="snap-embed"><span>Livingroom Empty - Virtual Services</span><a href="https://seekbeak.com/v/YbjNeOZmzA7" target="_blank">Snap Content</a></div><script async src="https://seekbeak.com/js/sbembed.js" charset="utf-8"></script>
             </div>
             <div class="col-md">
                 <h3 class="my-3">What is Virtual Staging</h3>
@@ -202,7 +238,7 @@
                     </a>
                 </div>
                 <div class="col-md">
-                    <img src="img/Groupphoto01.jpg" class="img-fluid" alt="">
+                  <div data-aspect-width="16" data-aspect-height="9" class="snap-embed"><span>Front</span><a href="https://seekbeak.com/v/Wgd1pdem1XJ" target="_blank">Snap Content</a></div><script async src="https://seekbeak.com/js/sbembed.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
